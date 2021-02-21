@@ -120,6 +120,7 @@ const testEnd = () => {
 };
 
 const showWrongAnswer = () => {
+  $("#wrong-answer-button").css("display", "none");
   $("#end-test").append(`<div id="wrong-answer-holder"></div>`);
   const table = $("<div id='table'></div>");
   wrongAnswer.forEach((wAnswer) => {
