@@ -46,8 +46,60 @@ body {
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
+#score-container {
+  margin-top: 50px;
+}
+
 .answers:hover {
   background-color: salmon;
+}
+
+/* ** Test Overviewing */
+#end-test {
+  position: relative;
+  width: 80vw;
+  height: 80vh;
+  background-color: #fff;
+  display: none;
+  margin: auto;
+}
+
+#end-score {
+  font-size: 20pt;
+  text-align: center;
+  padding-top: 10%;
+}
+
+#wrong-answer-button {
+  background-color: aqua;
+  border: 2px solid rgb(66, 80, 80);
+  border-radius: 10px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2em;
+  cursor: pointer;
+}
+
+#wrong-answer-holder {
+  width: 80%;
+  height: 40%;
+  margin: 20% auto;
+  border: 2px solid rgb(87, 143, 136);
+  overflow: scroll;
+}
+
+#row {
+  display: flex;
+}
+#row div {
+  font-size: 2rem;
+  width: 50%;
+  border-left: 2px solid rgb(87, 143, 136);
+  border-bottom: 2px solid rgb(87, 143, 136);
+  padding: 5px 0px 5px 15px;
+  text-align: left;
 }
 @media screen and (max-width: 600px) {
   .answers:hover {

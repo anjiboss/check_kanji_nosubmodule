@@ -1,5 +1,5 @@
 const checkBtn = $("#checkBtn");
-let testHistory = [];
+let testHistory;
 
 let from;
 let to;
@@ -22,8 +22,13 @@ async function changeLevel(level) {
 checkBtn.click(() => {
   from = fromNum.val();
   to = toNum.val();
+
+  // resetting///
   curScore = 0;
   wrongAnswer = [];
+  testHistory = [];
+  $("#end-test").html("").removeAttr("style");
+  //
   //   validation
   if (from === "" || to === "") {
     errorOutput("Fill in all the fields please");
@@ -37,11 +42,13 @@ checkBtn.click(() => {
     errorOutput("");
     numberOfQuestion = to - from + 1;
     showScore(0);
+    checkBtn.html("Test Again");
     startTest(Number(from), Number(to));
   } else {
     errorOutput("");
     numberOfQuestion = to - from + 1;
     showScore(0);
+    checkBtn.html("Test Again");
     startTest(Number(from), Number(to));
   }
 });
@@ -55,7 +62,14 @@ const startTest = (from, to) => {
 
 const outKanji = (from, to) => {
   curTestNum = randomInt(from, to + 1);
+  if (testHistory.length === numberOfQuestion) {
+    return testEnd();
+  }
+  while (testHistory.includes(curTestNum)) {
+    curTestNum = randomInt(from, to + 1);
+  }
   testHistory.push(curTestNum);
+  console.log(testHistory);
   $("#kanji").html(words[curTestNum].kanji);
   outAnswers(curTestNum);
 };
@@ -93,7 +107,27 @@ $(".answers").click(function () {
 });
 
 const showScore = (score) => {
-  $("#score").html(`${score}/${numberOfQuestion}`);
+  $("#score").html(`Điểm: ${score}/${numberOfQuestion}`);
+};
+
+const testEnd = () => {
+  $("#checker-zone").removeAttr("style");
+  $("#end-test").css("display", "block").append(
+    `<p id="end-score">Your Score: ${curScore}/${numberOfQuestion}</p>
+      <button id="wrong-answer-button"onclick="showWrongAnswer()" >Show All The Wrong Answer</button>
+      `
+  );
+};
+
+const showWrongAnswer = () => {
+  $("#end-test").append(`<div id="wrong-answer-holder"></div>`);
+  const table = $("<div id='table'></div>");
+  wrongAnswer.forEach((wAnswer) => {
+    table.append(
+      `<div id="row"><div>${words[wAnswer].kanji}</div><div>${words[wAnswer].hanViet}</div></div>`
+    );
+  });
+  $("#wrong-answer-holder").append(table);
 };
 
 function randomInt(min, max) {
