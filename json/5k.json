@@ -1,0 +1,770 @@
+[
+	{
+		"kanji": "kanji",
+		"hanViet": " hanViet"
+	},
+	{
+		"kanji": "異",
+		"hanViet": "DỊ"
+	},
+	{
+		"kanji": "胃",
+		"hanViet": "VỊ"
+	},
+	{
+		"kanji": "遺",
+		"hanViet": "DI"
+	},
+	{
+		"kanji": "域",
+		"hanViet": "VỰC"
+	},
+	{
+		"kanji": "宇",
+		"hanViet": "VŨ"
+	},
+	{
+		"kanji": "映",
+		"hanViet": "ÁNH"
+	},
+	{
+		"kanji": "延",
+		"hanViet": "DUYÊN"
+	},
+	{
+		"kanji": "沿",
+		"hanViet": "DUYÊN"
+	},
+	{
+		"kanji": "恩",
+		"hanViet": "ÂN"
+	},
+	{
+		"kanji": "我",
+		"hanViet": "NGÃ"
+	},
+	{
+		"kanji": "灰",
+		"hanViet": "HÔI"
+	},
+	{
+		"kanji": "拡",
+		"hanViet": "KHUẾCH"
+	},
+	{
+		"kanji": "閣",
+		"hanViet": "CÁC"
+	},
+	{
+		"kanji": "革",
+		"hanViet": "CÁCH"
+	},
+	{
+		"kanji": "割",
+		"hanViet": "CÁT"
+	},
+	{
+		"kanji": "株",
+		"hanViet": "CHU"
+	},
+	{
+		"kanji": "巻",
+		"hanViet": "QUYỂN"
+	},
+	{
+		"kanji": "干",
+		"hanViet": "CAN"
+	},
+	{
+		"kanji": "看",
+		"hanViet": "KHÁN"
+	},
+	{
+		"kanji": "簡",
+		"hanViet": "GIẢN"
+	},
+	{
+		"kanji": "危",
+		"hanViet": "NGUY"
+	},
+	{
+		"kanji": "揮",
+		"hanViet": "HUY"
+	},
+	{
+		"kanji": "机",
+		"hanViet": "KỶ"
+	},
+	{
+		"kanji": "貴",
+		"hanViet": "QUÝ"
+	},
+	{
+		"kanji": "疑",
+		"hanViet": "NGHI"
+	},
+	{
+		"kanji": "吸",
+		"hanViet": "HẤP"
+	},
+	{
+		"kanji": "供",
+		"hanViet": "CUNG"
+	},
+	{
+		"kanji": "胸",
+		"hanViet": "HUNG"
+	},
+	{
+		"kanji": "郷",
+		"hanViet": "HƯƠNG"
+	},
+	{
+		"kanji": "勤",
+		"hanViet": "CẦN"
+	},
+	{
+		"kanji": "筋",
+		"hanViet": "CÂN"
+	},
+	{
+		"kanji": "敬",
+		"hanViet": "KÍNH"
+	},
+	{
+		"kanji": "系",
+		"hanViet": "HỆ"
+	},
+	{
+		"kanji": "警",
+		"hanViet": "CẢNH"
+	},
+	{
+		"kanji": "劇",
+		"hanViet": "KỊCH"
+	},
+	{
+		"kanji": "激",
+		"hanViet": "KHÍCH/ KÍCH"
+	},
+	{
+		"kanji": "穴",
+		"hanViet": "HUYỆT"
+	},
+	{
+		"kanji": "券",
+		"hanViet": "KHOÁN"
+	},
+	{
+		"kanji": "憲",
+		"hanViet": "HIẾN"
+	},
+	{
+		"kanji": "権",
+		"hanViet": "QUYỀN"
+	},
+	{
+		"kanji": "絹",
+		"hanViet": "QUYÊN"
+	},
+	{
+		"kanji": "厳",
+		"hanViet": "NGHIÊM"
+	},
+	{
+		"kanji": "源",
+		"hanViet": "NGUYÊN"
+	},
+	{
+		"kanji": "呼",
+		"hanViet": "HÔ"
+	},
+	{
+		"kanji": "己",
+		"hanViet": "KỶ"
+	},
+	{
+		"kanji": "誤",
+		"hanViet": "NGỘ"
+	},
+	{
+		"kanji": "后",
+		"hanViet": "HẬU"
+	},
+	{
+		"kanji": "孝",
+		"hanViet": "HIẾU"
+	},
+	{
+		"kanji": "皇",
+		"hanViet": "HOÀNG"
+	},
+	{
+		"kanji": "紅",
+		"hanViet": "HỒNG"
+	},
+	{
+		"kanji": "鋼",
+		"hanViet": "CƯƠNG"
+	},
+	{
+		"kanji": "降",
+		"hanViet": "GIÁNG"
+	},
+	{
+		"kanji": "刻",
+		"hanViet": "KHẮC"
+	},
+	{
+		"kanji": "穀",
+		"hanViet": "CỐC"
+	},
+	{
+		"kanji": "骨",
+		"hanViet": "CỐT"
+	},
+	{
+		"kanji": "困",
+		"hanViet": "KHỐN"
+	},
+	{
+		"kanji": "砂",
+		"hanViet": "SA"
+	},
+	{
+		"kanji": "座",
+		"hanViet": "TỌA"
+	},
+	{
+		"kanji": "済",
+		"hanViet": "TẾ"
+	},
+	{
+		"kanji": "裁",
+		"hanViet": "TÀI"
+	},
+	{
+		"kanji": "策",
+		"hanViet": "SÁCH"
+	},
+	{
+		"kanji": "冊",
+		"hanViet": "SÁCH"
+	},
+	{
+		"kanji": "蚕",
+		"hanViet": "TÀM"
+	},
+	{
+		"kanji": "姿",
+		"hanViet": "TƯ"
+	},
+	{
+		"kanji": "私",
+		"hanViet": "TƯ"
+	},
+	{
+		"kanji": "至",
+		"hanViet": "CHÍ"
+	},
+	{
+		"kanji": "視",
+		"hanViet": "THỊ"
+	},
+	{
+		"kanji": "詞",
+		"hanViet": "TỪ"
+	},
+	{
+		"kanji": "誌",
+		"hanViet": "CHÍ"
+	},
+	{
+		"kanji": "磁",
+		"hanViet": "TỪ"
+	},
+	{
+		"kanji": "射",
+		"hanViet": "XẠ"
+	},
+	{
+		"kanji": "捨",
+		"hanViet": "XẢ"
+	},
+	{
+		"kanji": "尺",
+		"hanViet": "XÍCH"
+	},
+	{
+		"kanji": "若",
+		"hanViet": "NHƯỢC"
+	},
+	{
+		"kanji": "樹",
+		"hanViet": "THỤ"
+	},
+	{
+		"kanji": "収",
+		"hanViet": "THU"
+	},
+	{
+		"kanji": "宗",
+		"hanViet": "TÔNG"
+	},
+	{
+		"kanji": "就",
+		"hanViet": "TỰU"
+	},
+	{
+		"kanji": "衆",
+		"hanViet": "CHÚNG"
+	},
+	{
+		"kanji": "従",
+		"hanViet": "TÒNG"
+	},
+	{
+		"kanji": "縦",
+		"hanViet": "TUNG"
+	},
+	{
+		"kanji": "縮",
+		"hanViet": "SÚC"
+	},
+	{
+		"kanji": "熟",
+		"hanViet": "THỤC"
+	},
+	{
+		"kanji": "純",
+		"hanViet": "THUẦN"
+	},
+	{
+		"kanji": "処",
+		"hanViet": "XỬ"
+	},
+	{
+		"kanji": "署",
+		"hanViet": "THỰ"
+	},
+	{
+		"kanji": "諸",
+		"hanViet": "CHƯ"
+	},
+	{
+		"kanji": "除",
+		"hanViet": "TRỪ"
+	},
+	{
+		"kanji": "傷",
+		"hanViet": "THƯƠNG"
+	},
+	{
+		"kanji": "将",
+		"hanViet": "TƯƠNG"
+	},
+	{
+		"kanji": "承",
+		"hanViet": "THỪA"
+	},
+	{
+		"kanji": "障",
+		"hanViet": "CHƯỚNG"
+	},
+	{
+		"kanji": "蒸",
+		"hanViet": "CHƯNG"
+	},
+	{
+		"kanji": "針",
+		"hanViet": "CHÂM"
+	},
+	{
+		"kanji": "仁",
+		"hanViet": "NHÂN"
+	},
+	{
+		"kanji": "垂",
+		"hanViet": "THÙY"
+	},
+	{
+		"kanji": "推",
+		"hanViet": "SUY"
+	},
+	{
+		"kanji": "寸",
+		"hanViet": "THỐN"
+	},
+	{
+		"kanji": "盛",
+		"hanViet": "THỊNH"
+	},
+	{
+		"kanji": "聖",
+		"hanViet": "THÁNH"
+	},
+	{
+		"kanji": "誠",
+		"hanViet": "THÀNH"
+	},
+	{
+		"kanji": "舌",
+		"hanViet": "THIỆT"
+	},
+	{
+		"kanji": "宣",
+		"hanViet": "TUYÊN"
+	},
+	{
+		"kanji": "専",
+		"hanViet": "CHUYÊN"
+	},
+	{
+		"kanji": "泉",
+		"hanViet": "TUYỀN"
+	},
+	{
+		"kanji": "洗",
+		"hanViet": "TIỂN"
+	},
+	{
+		"kanji": "染",
+		"hanViet": "NHIỄM"
+	},
+	{
+		"kanji": "銭",
+		"hanViet": "TIỀN"
+	},
+	{
+		"kanji": "善",
+		"hanViet": "THIỆN"
+	},
+	{
+		"kanji": "創",
+		"hanViet": "SÁNG"
+	},
+	{
+		"kanji": "奏",
+		"hanViet": "TẤU"
+	},
+	{
+		"kanji": "層",
+		"hanViet": "TẦNG"
+	},
+	{
+		"kanji": "操",
+		"hanViet": "THAO"
+	},
+	{
+		"kanji": "窓",
+		"hanViet": "SONG"
+	},
+	{
+		"kanji": "装",
+		"hanViet": "TRANG"
+	},
+	{
+		"kanji": "臓",
+		"hanViet": "TẠNG"
+	},
+	{
+		"kanji": "蔵",
+		"hanViet": "TÀNG"
+	},
+	{
+		"kanji": "存",
+		"hanViet": "TỒN"
+	},
+	{
+		"kanji": "尊",
+		"hanViet": "TÔN"
+	},
+	{
+		"kanji": "退",
+		"hanViet": "THOÁI"
+	},
+	{
+		"kanji": "宅",
+		"hanViet": "TRẠCH"
+	},
+	{
+		"kanji": "担",
+		"hanViet": "ĐẢM"
+	},
+	{
+		"kanji": "探",
+		"hanViet": "THÁM"
+	},
+	{
+		"kanji": "誕",
+		"hanViet": "ĐẢN"
+	},
+	{
+		"kanji": "暖",
+		"hanViet": "NOÃN"
+	},
+	{
+		"kanji": "段",
+		"hanViet": "ĐOẠN"
+	},
+	{
+		"kanji": "値",
+		"hanViet": "TRỊ"
+	},
+	{
+		"kanji": "宙",
+		"hanViet": "TRỤ"
+	},
+	{
+		"kanji": "忠",
+		"hanViet": "TRUNG"
+	},
+	{
+		"kanji": "著",
+		"hanViet": "TRỨ"
+	},
+	{
+		"kanji": "庁",
+		"hanViet": "SẢNH"
+	},
+	{
+		"kanji": "潮",
+		"hanViet": "TRIỀU"
+	},
+	{
+		"kanji": "腸",
+		"hanViet": "TRƯỜNG"
+	},
+	{
+		"kanji": "頂",
+		"hanViet": "ĐỈNH"
+	},
+	{
+		"kanji": "賃",
+		"hanViet": "NHẪM"
+	},
+	{
+		"kanji": "痛",
+		"hanViet": "THỐNG"
+	},
+	{
+		"kanji": "敵",
+		"hanViet": "ĐỊCH"
+	},
+	{
+		"kanji": "展",
+		"hanViet": "TRIỂN"
+	},
+	{
+		"kanji": "党",
+		"hanViet": "ĐẢNG"
+	},
+	{
+		"kanji": "糖",
+		"hanViet": "ĐƯỜNG"
+	},
+	{
+		"kanji": "討",
+		"hanViet": "THẢO"
+	},
+	{
+		"kanji": "届",
+		"hanViet": "GIỚI"
+	},
+	{
+		"kanji": "難",
+		"hanViet": "NAN"
+	},
+	{
+		"kanji": "乳",
+		"hanViet": "NHŨ"
+	},
+	{
+		"kanji": "認",
+		"hanViet": "NHẬN"
+	},
+	{
+		"kanji": "納",
+		"hanViet": "NẠP"
+	},
+	{
+		"kanji": "脳",
+		"hanViet": "NÃO"
+	},
+	{
+		"kanji": "派",
+		"hanViet": "PHÁI"
+	},
+	{
+		"kanji": "俳",
+		"hanViet": "BÀI"
+	},
+	{
+		"kanji": "拝",
+		"hanViet": "BÁI"
+	},
+	{
+		"kanji": "背",
+		"hanViet": "BỐI"
+	},
+	{
+		"kanji": "肺",
+		"hanViet": "PHẾ"
+	},
+	{
+		"kanji": "班",
+		"hanViet": "BAN"
+	},
+	{
+		"kanji": "晩",
+		"hanViet": "VÃN"
+	},
+	{
+		"kanji": "否",
+		"hanViet": "PHỦ"
+	},
+	{
+		"kanji": "批",
+		"hanViet": "PHÊ"
+	},
+	{
+		"kanji": "秘",
+		"hanViet": "BÍ"
+	},
+	{
+		"kanji": "俵",
+		"hanViet": "BIỂU"
+	},
+	{
+		"kanji": "腹",
+		"hanViet": "PHÚC"
+	},
+	{
+		"kanji": "奮",
+		"hanViet": "PHẤN"
+	},
+	{
+		"kanji": "並",
+		"hanViet": "TỊNH"
+	},
+	{
+		"kanji": "閉",
+		"hanViet": "BẾ"
+	},
+	{
+		"kanji": "陛",
+		"hanViet": "BỆ"
+	},
+	{
+		"kanji": "片",
+		"hanViet": "PHIẾN"
+	},
+	{
+		"kanji": "補",
+		"hanViet": "BỔ"
+	},
+	{
+		"kanji": "暮",
+		"hanViet": "MỘ"
+	},
+	{
+		"kanji": "宝",
+		"hanViet": "BẢO"
+	},
+	{
+		"kanji": "訪",
+		"hanViet": "PHỎNG"
+	},
+	{
+		"kanji": "亡",
+		"hanViet": "VONG"
+	},
+	{
+		"kanji": "忘",
+		"hanViet": "VONG"
+	},
+	{
+		"kanji": "棒",
+		"hanViet": "BỔNG"
+	},
+	{
+		"kanji": "枚",
+		"hanViet": "MAI"
+	},
+	{
+		"kanji": "幕",
+		"hanViet": "MẠC"
+	},
+	{
+		"kanji": "密",
+		"hanViet": "MẬT"
+	},
+	{
+		"kanji": "盟",
+		"hanViet": "MINH"
+	},
+	{
+		"kanji": "模",
+		"hanViet": "MÔ"
+	},
+	{
+		"kanji": "訳",
+		"hanViet": "DỊCH"
+	},
+	{
+		"kanji": "優",
+		"hanViet": "ƯU"
+	},
+	{
+		"kanji": "郵",
+		"hanViet": "BƯU"
+	},
+	{
+		"kanji": "預",
+		"hanViet": "DỰ"
+	},
+	{
+		"kanji": "幼",
+		"hanViet": "ẤU"
+	},
+	{
+		"kanji": "欲",
+		"hanViet": "DỤC"
+	},
+	{
+		"kanji": "翌",
+		"hanViet": "DỰC"
+	},
+	{
+		"kanji": "乱",
+		"hanViet": "LOẠN"
+	},
+	{
+		"kanji": "卵",
+		"hanViet": "NOÃN"
+	},
+	{
+		"kanji": "覧",
+		"hanViet": "LÃM"
+	},
+	{
+		"kanji": "裏",
+		"hanViet": "LÝ"
+	},
+	{
+		"kanji": "律",
+		"hanViet": "LUẬT"
+	},
+	{
+		"kanji": "臨",
+		"hanViet": "LÂM"
+	},
+	{
+		"kanji": "朗",
+		"hanViet": "LÃNG"
+	},
+	{
+		"kanji": "論",
+		"hanViet": "LUẬN"
+	}
+]

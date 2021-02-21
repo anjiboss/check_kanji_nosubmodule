@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Check Kanji</title>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+    ></script>
+    <link rel="stylesheet" href="css/check-word-style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="selecter">
+        <select name="select" id="selecter" onchange="changeLevel(this.value)">
+          <option value="">Chọn cấp độ Kanji</option>
+        </select>
+        <!-- adding level script -->
+
+        <script>
+          for (let i = 1; i < 10; i++) {
+            $("#selecter").append(`<option>${i + "k"}</option>`);
+          }
+        </script>
+      </div>
+      <div id="input-field">
+        <p id="error-message"></p>
+        <input type="text" placeholder="from" id="fromNum" />
+        <br />
+        <input type="text" placeholder="to" id="toNum" />
+        <br />
+        <button id="checkBtn">Start</button>
+      </div>
+      <div id="checker-zone">
+        <div id="kanji"></div>
+        <div id="answer-holder">
+          <div class="answers" id="answer-1"></div>
+          <div class="answers" id="answer-2"></div>
+          <div class="answers" id="answer-3"></div>
+          <div class="answers" id="answer-4"></div>
+        </div>
+      </div>
+      <div id="score-container">
+        <p id="score"></p>
+      </div>
+    </div>
+  </body>
+  <script src="js/checkKanjiScript.js"></script>
+</html>
