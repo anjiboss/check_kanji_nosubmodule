@@ -131,6 +131,16 @@ const showWrongAnswer = () => {
   $("#wrong-answer-holder").append(table);
 };
 
+$("#change10W").click(() => {
+  from = fromNum.val();
+  to = toNum.val();
+  maxNum = words.length;
+  if (from == "" || to == "" || from == 0 || to == 0) {
+    fromNum.val("1");
+    toNum.val("10");
+  }
+});
+
 function randomInt(min, max) {
   min = Math.ceil(min);
   max = Math.floor(max);

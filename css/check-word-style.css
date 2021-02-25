@@ -51,23 +51,33 @@ input[type="text"]:focus {
   width: 250px;
 }
 
-#checkBtn {
-  width: 100px;
+#buttons {
+  display: flex;
+}
+
+#checkBtn,
+#change10W {
+  width: 150px;
   height: 40px;
   border: 2px solid #2ecc71;
   color: #fff;
   background: rgb(66, 80, 80);
   border-radius: 10px;
   margin: 15px auto;
+  outline: none;
+  cursor: pointer;
 }
-
+#checkBtn:hover,
+#change10W:hover {
+  background-color: rgb(55, 121, 126);
+}
 #error-message {
   color: red;
 }
 #checker-zone {
   display: none;
   width: 80vw;
-  height: 80vh;
+  height: 70vh;
   background-color: #fff;
   margin: auto;
   text-align: center;
