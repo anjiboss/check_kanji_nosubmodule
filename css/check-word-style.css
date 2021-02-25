@@ -2,21 +2,32 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: rgb(202, 193, 193);
 }
 
-#selecter {
-  width: 30vw;
+#container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.selecter {
+  width: 200px;
   height: 30px;
-  /* margin: 20px 0px 0px 50px; */
-  margin: auto;
+  margin: 20px auto 5px auto;
+
   font-weight: 900;
 }
-option {
+option,
+select {
   font-weight: bold;
+  /* width: 30vw;*/
+  width: 100%;
+  height: 30px;
+  background-color: antiquewhite;
+  border: 1px solid brown;
 }
 #input-field {
   display: none;
@@ -24,16 +35,26 @@ option {
 }
 
 input {
-  margin: 5px 0px 0px 50px;
+  border: 0;
+  margin: 5px 0px;
+  width: 200px;
   font-weight: 900;
   font-size: large;
+  background-color: antiquewhite;
+  border: 1px solid brown;
+  outline: none;
+  transition: ease-in-out, width 0.25s ease-in-out;
+}
+
+input[type="text"]:focus {
+  border-color: deepskyblue;
+  width: 250px;
 }
 
 #checkBtn {
   width: 100px;
   height: 40px;
   margin: 15px auto;
-  
 }
 
 #error-message {
