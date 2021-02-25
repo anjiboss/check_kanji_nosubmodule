@@ -54,6 +54,10 @@ input[type="text"]:focus {
 #checkBtn {
   width: 100px;
   height: 40px;
+  border: 2px solid #2ecc71;
+  color: #fff;
+  background: rgb(66, 80, 80);
+  border-radius: 10px;
   margin: 15px auto;
 }
 
