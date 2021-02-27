@@ -189,6 +189,6 @@ input[type="text"]:focus {
 @media screen and (max-width: 600px) {
   .answers:hover {
     /* add this because hover effect work weird on mobile */
-    background-color: rgb(160, 235, 240);
+    background-color: #fecee9;
   }
 }
