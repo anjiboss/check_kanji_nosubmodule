@@ -75,11 +75,16 @@ const outKanji = (from, to) => {
 };
 
 const outAnswers = (curTestNum) => {
+  let arrAns = [words[curTestNum].hanViet];
   let ans = randomInt(1, 5); // out 1 - 4
   $(`#answer-${ans}`).html(words[curTestNum].hanViet);
   for (let i = 1; i <= 4; i++) {
     if (i !== ans) {
-      $(`#answer-${i}`).html(words[randomInt(1, words.length)].hanViet);
+      do {
+        randomAns = words[randomInt(1, words.length)].hanViet;
+      } while (arrAns.includes(randomAns));
+      arrAns.push(randomAns);
+      $(`#answer-${i}`).html(randomAns);
     }
   }
 };
