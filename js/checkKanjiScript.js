@@ -17,6 +17,7 @@ async function changeLevel(level) {
     const data = await res.json();
     $("#input-field").css("display", "block");
     words = data;
+    outMax(words.length);
   }
 }
 checkBtn.click(() => {
@@ -69,7 +70,6 @@ const outKanji = (from, to) => {
     curTestNum = randomInt(from, to + 1);
   }
   testHistory.push(curTestNum);
-  console.log(testHistory);
   $("#kanji").html(words[curTestNum].kanji);
   outAnswers(curTestNum);
 };
@@ -77,6 +77,7 @@ const outKanji = (from, to) => {
 const outAnswers = (curTestNum) => {
   let arrAns = [words[curTestNum].hanViet];
   let ans = randomInt(1, 5); // out 1 - 4
+  let randomAns = "";
   $(`#answer-${ans}`).html(words[curTestNum].hanViet);
   for (let i = 1; i <= 4; i++) {
     if (i !== ans) {
@@ -96,7 +97,7 @@ $(".answers").click(function () {
   if ($("#" + ansId).text() === words[curTestNum].hanViet) {
     curScore++;
     showScore(curScore);
-    $("#" + ansId).css("background", "green");
+    $("#" + ansId).css("background", "#1EFC1E");
     setTimeout(function () {
       $("#" + ansId).removeAttr("style");
       outKanji(Number(from), Number(to));
@@ -144,6 +145,15 @@ $("#change10W").click(() => {
     fromNum.val("1");
     toNum.val("10");
   }
+});
+
+const outMax = (_max) => {
+  //Output the maximun word's number of the level
+  $("#max-num").html(`<p>Chọn số tối đa: ${_max}</p>`);
+};
+
+$("#max-num").click(() => {
+  toNum.val(words.length);
 });
 
 function randomInt(min, max) {
