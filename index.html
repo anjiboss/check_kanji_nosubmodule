@@ -15,8 +15,43 @@
       src="https://code.jquery.com/jquery-3.3.1.min.js"
     ></script>
     <link rel="stylesheet" href="css/check-word-style.css" />
+    <link rel="stylesheet" href="css/header-style.css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <div id="home"><a href="">Home</a></div>
+        <ul class="header-nav" id="header-nav">
+          <li><a href="">All Kanji</a></li>
+          <li><a href="https://kanjiflashcard.netlify.app/">Flash-Card</a></li>
+          <li>
+            <a href="https://check-kanji.netlify.app/">Check Kanji Quiz</a>
+          </li>
+        </ul>
+        <div id="burger">
+          <div id="line1"></div>
+          <div id="line2"></div>
+          <div id="line3"></div>
+        </div>
+      </nav>
+    </header>
+    <script>
+      // navigator script
+      const links = document.querySelectorAll(".header-nav li");
+
+      $("#burger").click(() => {
+        links.forEach((link, index) => {
+          if (link.style.animation) {
+            link.style.animation = "";
+          } else {
+            link.style.animation = `navLinkFade 0.5s ease forwards ${
+              index / 7 + 0.5
+            }s`;
+          }
+        });
+        $("#header-nav").toggleClass("nav-activate");
+      });
+    </script>
     <div class="container">
       <div class="selecter">
         <select name="select" id="selecter" onchange="changeLevel(this.value)">
